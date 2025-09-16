@@ -15,6 +15,7 @@ export default {
       },
       colors: {
         background: "var(--background)",
+         borderColor: "var(--border)", 
         foreground: "var(--foreground)",
         card: {
           DEFAULT: "var(--card)",
@@ -66,9 +67,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sans)"],
-        serif: ["var(--font-serif)"],
-        mono: ["var(--font-mono)"],
+        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+
       },
       keyframes: {
         "accordion-down": {
